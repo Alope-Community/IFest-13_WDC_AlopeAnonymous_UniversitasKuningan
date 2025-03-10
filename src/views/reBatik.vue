@@ -7,13 +7,16 @@
     <div class="relative z-10">
       <h1 class="font-sekunder text-4xl my-5">ReBatik</h1>
       <p>
-        ReBatik mengolah kain perca atau batik rusak menjadi <br class="hidden md:inline"/>
-        tas dan aksesori, mengurangi limbah tekstil, serta <br class="hidden md:inline"/>
+        ReBatik mengolah kain perca atau batik rusak menjadi
+        <br class="hidden md:inline" />
+        tas dan aksesori, mengurangi limbah tekstil, serta
+        <br class="hidden md:inline" />
         melestarikan batik secara berkelanjutan.
       </p>
     </div>
   </section>
-  <main class="xl:px-20 md:px-10 px-5 pt-10">
+
+  <main class="xl:px-20 md:px-10 px-5 pt-10 container mx-auto">
     <section class="flex flex-col md:flex-row gap-3 md:gap-16 items-center">
       <img
         src="/image/page/Rebatik 2.svg"
@@ -150,24 +153,29 @@
       </form>
     </section>
   </main>
+
   <section
-    className="relative z-10 px-10 md:px-16 xl:px-20 flex md:flex-row flex-col gap-10 items-center justify-center md:justify-between h-[250px] bg-[url(/image/hero.png)] bg-cover bg-center  mt-10 after:content-[''] after:absolute after:inset-0 after:bg-black/50 after:-z-10"
+    className="relative z-10 px-10 md:px-16 xl:px-20 flex items-center h-[250px] bg-[url(/image/hero.png)] bg-cover bg-center  mt-10 after:content-[''] after:absolute after:inset-0 after:bg-black/50 after:-z-10"
   >
-    <div className="md:text-left text-center">
-      <p className="font-medium text-xl md:text-2xl text-primary uppercase ">
-        Tertarik Pesan?
-      </p>
-      <h1 className="text-2xl lg:text-3xl text-white font-bold">
-        Koleksi ReBatik Kami
-      </h1>
-    </div>
-    <div>
-      <RouterLink
-        to="listProduk"
-        class="inline-flex items-center text-white px-6 py-3 border border-primary rounded-lg hover:bg-primary transition"
-      >
-        Pesan Sekarang<i class="fa-solid fa-arrow-right pl-2"></i>
-      </RouterLink>
+    <div
+      class="container mx-auto flex md:flex-row flex-col gap-10 items-center justify-center md:justify-between"
+    >
+      <div className="md:text-left text-center">
+        <p className="font-medium text-xl md:text-2xl text-primary uppercase ">
+          Tertarik Pesan?
+        </p>
+        <h1 className="text-2xl lg:text-3xl text-white font-bold">
+          Koleksi ReBatik Kami
+        </h1>
+      </div>
+      <div>
+        <RouterLink
+          to="listProduk"
+          class="inline-flex items-center text-white px-6 py-3 border border-primary rounded-lg hover:bg-primary transition"
+        >
+          Pesan Sekarang<i class="fa-solid fa-arrow-right pl-2"></i>
+        </RouterLink>
+      </div>
     </div>
   </section>
 </template>

@@ -7,12 +7,15 @@
     <div class="relative z-10">
       <h1 class="font-sekunder text-4xl my-5">List Produk</h1>
       <p>
-        Temukan beragam batik berkualitas, dari batik baru, second, <br class="hidden md:inline"/>
-        hingga koleksi ReBatik—mengusung tradisi, keberlanjutan, <br class="hidden md:inline"/>
+        Temukan beragam batik berkualitas, dari batik baru, second,
+        <br class="hidden md:inline" />
+        hingga koleksi ReBatik—mengusung tradisi, keberlanjutan,
+        <br class="hidden md:inline" />
         dan gaya ramah lingkungan.
       </p>
     </div>
   </section>
+
   <section
     class="grid md:grid-cols-4 lg:px-14 px-10 container mx-auto gap-10 my-10"
   >
@@ -103,7 +106,9 @@
         </div>
       </div>
     </div>
-    <div class="lg:col-span-3 col-span-4 grid sm:grid-cols-2 md:grid-cols-3 lg:gap-10 gap-5">
+    <div
+      class="lg:col-span-3 col-span-4 grid sm:grid-cols-2 md:grid-cols-3 lg:gap-10 gap-5"
+    >
       <div>
         <RouterLink to="detailProduk">
           <div
@@ -116,7 +121,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Bunga</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Bunga
+                </h3>
                 <p class="text-gray-600 text-sm">M-XL</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 100.000</p>
@@ -145,7 +152,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Angsa</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Angsa
+                </h3>
                 <p class="text-gray-600 text-sm">XL</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 125.000</p>
@@ -174,7 +183,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Garuda</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Garuda
+                </h3>
                 <p class="text-gray-600 text-sm">S-3XL</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 350.000</p>
@@ -234,7 +245,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Burung</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Burung
+                </h3>
                 <p class="text-gray-600 text-sm">L-XL</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 150.000</p>
@@ -294,7 +307,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Kawung</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Kawung
+                </h3>
                 <p class="text-gray-600 text-sm">M</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 150.000</p>
@@ -352,7 +367,9 @@
             />
             <div class="p-4">
               <div class="flex justify-between items-center min-h-[56px]">
-                <h3 class="text-lg font-semibold min-h-[48px]">Batik Motif Kawung</h3>
+                <h3 class="text-lg font-semibold min-h-[48px]">
+                  Batik Motif Kawung
+                </h3>
                 <p class="text-gray-600 text-sm">S-3XL</p>
               </div>
               <p class="text-gray-800 font-bold min-h-[24px]">Rp. 350.000</p>

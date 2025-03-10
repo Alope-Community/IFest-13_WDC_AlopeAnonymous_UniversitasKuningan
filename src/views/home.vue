@@ -18,7 +18,7 @@
     </div>
   </header>
 
-  <main class="xl:px-20 md:px-10 px-5 pt-10">
+  <main class="xl:px-20 md:px-10 px-5 pt-10 container mx-auto">
     <!-- Tentang Kami -->
     <section class="grid xl:grid-cols-1 items-center xl:gap-20 gap-10 py-16">
       <div
@@ -236,8 +236,8 @@
       </div>
     </section>
     <!--CARD PRODUK-->
-    <section class="py-5 sm:px-5">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-5">
+      <div class="">
         <h2 class="text-3xl text-primary font-semibold text-gold italic mb-3">
           Temukan Produk
         </h2>
@@ -396,7 +396,7 @@
     </section>
 
     <!--TESTIMONI-->
-    <section class="text-center mb-20 sm:py-20 py-10 xl:px-10 md:px-5 px-3">
+    <section class="text-center mb-20 sm:py-20 py-10">
       <h2
         class="sm:text-3xl text-2xl text-primary font-semibold text-gold italic sm:mb-6 mb-0"
       >
