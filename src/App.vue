@@ -1,8 +1,8 @@
 <template>
   <main>
-    <Navbar></Navbar>
+    <Navbar v-if="!isPageWithoutNavAndFooter" />
     <router-view></router-view>
-    <Footer></Footer>
+    <Footer v-if="!isPageWithoutNavAndFooter" />
   </main>
 </template>
 
@@ -15,6 +15,14 @@ export default {
   components: {
     Navbar,
     Footer,
+  },
+  computed: {
+    isPageWithoutNavAndFooter() {
+      return (
+        this.$route &&
+        (this.$route.path === "/login" || this.$route.path === "/register")
+      );
+    },
   },
 };
 </script>
